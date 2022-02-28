@@ -1,0 +1,74 @@
+*{
+    color:red;
+
+}
+body{
+    height: 100vh;
+    overflow:hidden;
+    margin:0px;
+    padding: 0px;
+}
+.mainWraper{
+    padding:50px 30px;
+    border: 1px solid red;
+}
+.container{
+    padding:50px 30px;
+    border: 1px solid green;	
+    background-color: skyblue;
+}
+.gamebox{
+    height: 500px;
+    background: #FFFFFF;
+    border: 1px solid brown;
+    position: relative;
+    overflow: hidden;
+}
+.dinosure{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom:0px;
+    left:50px; 
+
+}
+.obs{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 0px;
+    right: -10px;
+
+
+}
+.obs .obs-first{
+    width: 10px;
+    height: 70px;
+    
+}
+.obs .obs-second{
+    width: 20px;
+    height: 50px;
+
+}
+.obs .obs-third{
+    width: 30px;
+    height: 40px;
+
+}
+.score{
+    float:Right;
+    padding-right:10px;
+}
+.score h3,.score h3 span{
+    font-size:2rem;
+    color:black;
+}
+.game-over{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(30%);
+    flex-direction: column;
+    visibility:hidden;
+  }
